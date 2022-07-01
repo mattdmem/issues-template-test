@@ -64,8 +64,7 @@ body:
     id: version
     attributes:
       label: Version
-      description: What versions of our software are you running?
-      value: "Please include the workflow version and the version of EPI2ME Labs and the environement if applicable."
+      description: What versions of our software are you running? (Please include the workflow version and the version of EPI2ME Labs and the environment if applicable.)
     validations:
       required: true
   - type: textarea
