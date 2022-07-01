@@ -2,8 +2,6 @@ name: Bug Report
 description: File a bug report
 title: "[Bug]: "
 labels: ["bug", "triage"]
-assignees:
-  - octocat
 body:
   - type: markdown
     attributes:
@@ -67,7 +65,7 @@ body:
     attributes:
       label: Version
       description: What versions of our software are you running?
-      value: "Please include teh workflow version and the version of EPI2ME Labs and the environement if applicable."
+      value: "Please include the workflow version and the version of EPI2ME Labs and the environement if applicable."
     validations:
       required: true
   - type: textarea
