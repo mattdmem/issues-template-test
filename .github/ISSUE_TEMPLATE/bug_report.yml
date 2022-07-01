@@ -62,7 +62,7 @@ body:
         - Conda
     validations:
       required: false
-  - type: textbox
+  - type: textarea
     id: version
     attributes:
       label: Version
