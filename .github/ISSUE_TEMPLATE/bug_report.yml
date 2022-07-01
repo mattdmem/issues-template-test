@@ -35,12 +35,19 @@ body:
       label: Workflow Execution
       description: Where are you running the workflow?
       options:
-        - EPI2ME Labs
-        - Command Line
+        - EPI2ME Labs desktop application
+        - Command line
         - EPI2ME
         - Other (please describe)
     validations:
       required: true
+  - type: input
+    id: labs-version
+    attributes:
+      label: EPI2ME Labs Versions
+      description: If you're running using EPI2ME Labs please provide the version and the environment version (Click the blue help icon bottom left and select ":bout")?
+    validations:
+      required: false
   - type: dropdown
     id: profile
     attributes:
@@ -55,8 +62,8 @@ body:
   - type: input
     id: version
     attributes:
-      label: Version
-      description: What versions of our software are you running? (Please include the workflow version and the version of EPI2ME Labs and the environment if applicable.)
+      label: Workflow Version
+      description: What version of the workflow are you running?
     validations:
       required: true
   - type: textarea
@@ -67,11 +74,3 @@ body:
       render: shell
     validations:
       required: true
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
