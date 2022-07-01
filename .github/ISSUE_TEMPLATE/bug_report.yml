@@ -44,14 +44,14 @@ body:
   - type: input
     id: labs-version
     attributes:
-      label: Workflow Execution: EPI2ME Labs Versions
+      label: Workflow Execution - EPI2ME Labs Versions
       description: If you're running using EPI2ME Labs please provide the version and the environment version (Click the blue help icon bottom left and select ":bout")?
     validations:
       required: false
   - type: dropdown
     id: profile
     attributes:
-      label: Workflow Execution: Execution Profile
+      label: Workflow Execution - Execution Profile
       description: If you're using the CLI to run the workflow, what profile are you using?
       options:
         - Docker
